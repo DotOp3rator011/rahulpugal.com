@@ -20,6 +20,7 @@ const LandingPage = () => {
                     display={"flex"}
                     flexDirection={"column"}
                     marginBottom={10}
+                    zIndex={2}
                 >
                     <span>Hello, I'm <span className={"name-text"}>Rahul Pugal</span>.</span>
                     <span>I'm a Software Developer.</span>
@@ -32,6 +33,7 @@ const LandingPage = () => {
                     className={"know-more-button"}
                     height={"6vw"}
                     width={"18vw"}
+                    zIndex={2}
                     onClick={() => pageScroll("")}
                 >
                     <span>Know More</span>
