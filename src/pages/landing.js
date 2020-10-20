@@ -13,7 +13,7 @@ const LandingPage = () => {
                 justifyContent={"center"}
                 paddingLeft={"5%"}
                 paddingRight={"30%"}
-                className={"landing-container"}
+                className={"background-container"}
             >
                 <Pane
                     className={"introduction-text"}
@@ -34,7 +34,7 @@ const LandingPage = () => {
                     height={"6vw"}
                     width={"18vw"}
                     zIndex={2}
-                    onClick={() => pageScroll("")}
+                    onClick={() => pageScroll("about")}
                 >
                     <span>Know More</span>
                 </Pane>

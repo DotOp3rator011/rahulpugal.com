@@ -1,5 +1,6 @@
 import React from "react";
 import LandingPage from "./landing";
+import AboutPage from "./about";
 
 class App extends React.Component {
 
@@ -7,6 +8,7 @@ class App extends React.Component {
         return (
             <React.Fragment>
                 <LandingPage/>
+                <AboutPage/>
             </React.Fragment>
         )
     }
