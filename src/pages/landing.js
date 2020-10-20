@@ -1,44 +1,22 @@
 import React from "react";
-import {Pane} from "evergreen-ui";
 import {pageScroll} from "../util";
 
 
 const LandingPage = () => {
     return (
         <React.Fragment>
-            <Pane
-                display={"flex"}
-                flexDirection={"column"}
-                alignItems={"center"}
-                justifyContent={"center"}
-                paddingLeft={"5%"}
-                paddingRight={"30%"}
-                className={"landing-container"}
-            >
-                <Pane
-                    className={"introduction-text"}
-                    display={"flex"}
-                    flexDirection={"column"}
-                    marginBottom={10}
-                    zIndex={2}
-                >
+            <div className={"introduction-container"}>
+                <div className={"introduction-text"}>
                     <span>Hello, I'm <span className={"name-text"}>Rahul Pugal</span>.</span>
                     <span>I'm a Software Developer.</span>
-                </Pane>
-                <Pane
-                    display={"flex"}
-                    alignItems={"center"}
-                    justifyContent={"center"}
-                    marginTop={10}
+                </div>
+                <div
                     className={"know-more-button"}
-                    height={"6vw"}
-                    width={"18vw"}
-                    zIndex={2}
                     onClick={() => pageScroll("")}
                 >
                     <span>Know More</span>
-                </Pane>
-            </Pane>
+                </div>
+            </div>
         </React.Fragment>
     )
 };
