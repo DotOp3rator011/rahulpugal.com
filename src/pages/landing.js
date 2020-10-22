@@ -5,7 +5,7 @@ import {pageScroll} from "../util";
 const LandingPage = () => {
     return (
         <React.Fragment>
-            <div className={"introduction-container"}>
+            <div className={"introduction-container fade-in-up"}>
                 <div className={"introduction-text"}>
                     <span>Hello, I'm <span className={"name-text"}>Rahul Pugal</span>.</span>
                     <span>I'm a Software Developer.</span>
