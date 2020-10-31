@@ -24,18 +24,18 @@
 
 @keyframes fadeInLeft {
 
-   from {
-     opacity: 0;
-     visibility: hidden;
-     transform: translate3d(40px, 0px, 0);
-   }
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(40px, 0px, 0);
+  }
 
-   to {
-     visibility: visible;
-     opacity: 1;
-     transform: none;
-   }
- }
+  to {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+}
 
 .fade-in-left {
   animation-name: fadeInLeft;
@@ -43,4 +43,26 @@
   visibility: hidden;
   animation-duration: 1.5s;
   animation-fill-mode: both;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .fade-in-up {
+    animation-delay: 0s;
+  }
+
+  @keyframes fadeInLeft {
+
+    from {
+      opacity: 0;
+      visibility: hidden;
+      transform: translate3d(0px, 0px, 0);
+    }
+
+    to {
+      visibility: visible;
+      opacity: 1;
+      transform: none;
+    }
+  }
 }
