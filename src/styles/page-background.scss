@@ -1,0 +1,14 @@
+.background-container {
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  z-index: 1;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .background-container {
+    background-image: none !important;
+  }
+}

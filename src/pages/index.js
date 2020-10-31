@@ -1,12 +1,15 @@
 import React from "react";
-import LandingPage from "./landing";
+import PageBackground from "../components/page-background";
+import Landing from "../components/landing";
 
 class App extends React.Component {
 
     render() {
         return (
             <React.Fragment>
-                <LandingPage/>
+                <PageBackground imageSource={"landingPage"}>
+                    <Landing/>
+                </PageBackground>
             </React.Fragment>
         )
     }
