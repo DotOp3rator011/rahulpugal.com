@@ -41,29 +41,6 @@
   background-color: #e31b6d;
 }
 
-@keyframes fadeInUp {
-
-  from {
-    opacity: 0;
-    visibility: hidden;
-    transform: translate3d(0, 40px, 0);
-  }
-
-  to {
-    visibility: visible;
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.fade-in-up {
-  animation-name: fadeInUp;
-  opacity: 0;
-  visibility: hidden;
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-}
-
 @media only screen and (max-width: 600px) {
 
   .introduction-text {

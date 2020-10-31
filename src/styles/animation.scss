@@ -1,0 +1,46 @@
+@keyframes fadeInUp {
+
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-in-up {
+  animation-name: fadeInUp;
+  opacity: 0;
+  visibility: hidden;
+  animation-delay: 1s;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInLeft {
+
+   from {
+     opacity: 0;
+     visibility: hidden;
+     transform: translate3d(40px, 0px, 0);
+   }
+
+   to {
+     visibility: visible;
+     opacity: 1;
+     transform: none;
+   }
+ }
+
+.fade-in-left {
+  animation-name: fadeInLeft;
+  opacity: 0;
+  visibility: hidden;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
