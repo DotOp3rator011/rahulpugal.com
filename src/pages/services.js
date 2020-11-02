@@ -9,25 +9,25 @@ export default class ServicesPage extends React.Component {
         this.state = {
             services: [
                 {
-                    name: "Web Apps & PWA Development",
-                    image: "/images/services/web-app-and-pwa-development.svg",
-                    alt: "Web Apps & PWA Development",
-
-                },
-                {
-                    name: "API Development & Integration",
+                    name: "RESTful API Systems",
                     image: "/images/services/api-development-and-integration.svg",
                     alt: "API Development & Integration",
 
                 },
                 {
-                    name: "Code Review & Cleanup",
+                    name: "Web Apps & PWA",
+                    image: "/images/services/web-app-and-pwa-development.svg",
+                    alt: "Web Apps & PWA Development",
+
+                },
+                {
+                    name: "System Architecture",
                     image: "/images/services/code-review-and-cleanup.svg",
                     alt: "Code Review & Cleanup",
 
                 },
                 {
-                    name: "Bug Fixing",
+                    name: "QA & Debugging",
                     image: "/images/services/bug-fixing.svg",
                     alt: "Bug Fixing",
 

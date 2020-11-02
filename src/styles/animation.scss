@@ -89,4 +89,19 @@
       transform: none;
     }
   }
+
+  @keyframes fadeInLeft {
+
+    from {
+      opacity: 0;
+      visibility: hidden;
+      transform: translate3d(0px, 0px, 0);
+    }
+
+    to {
+      visibility: visible;
+      opacity: 1;
+      transform: none;
+    }
+  }
 }
