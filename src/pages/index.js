@@ -1,6 +1,6 @@
 import React from "react";
 import PageBackground from "../components/page-background";
-import Landing from "../components/landing";
+import Landing from "./landing";
 
 class App extends React.Component {
 
