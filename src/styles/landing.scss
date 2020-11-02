@@ -1,9 +1,14 @@
+.landing-page-container {
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .introduction-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: calc(var(--vh, 1vh) * 100);
+  flex-direction: column;
 }
 
 .introduction-text {
@@ -13,12 +18,12 @@
   z-index: 3;
   font-size: 4vw;
   line-height: 5vw;
-  color: #ffffff;
+  font-weight: 600;
 }
 
 .name-text {
   font-weight: 800;
-  -webkit-text-fill-color: #e31b6d;
+  color: #e31b6d;
 }
 
 .know-more-button {

@@ -1,6 +1,7 @@
 import React from "react";
 import PageBackground from "../components/page-background";
 import Landing from "./landing";
+import ServicesPage from "./services";
 
 class App extends React.Component {
 
@@ -10,6 +11,7 @@ class App extends React.Component {
                 <PageBackground imageSource={"landingPage"}>
                     <Landing/>
                 </PageBackground>
+                <ServicesPage/>
             </React.Fragment>
         )
     }
