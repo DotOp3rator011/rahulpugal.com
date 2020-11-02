@@ -22,7 +22,7 @@ export default class PageBackground extends React.Component {
 
         return (
             <div
-                className={"background-container fade-in-left"}
+                className={"background-container fade-in-right"}
                 style={{backgroundImage: `url(${backgroundImages[imageSource]})`}}
             >
                 {children}

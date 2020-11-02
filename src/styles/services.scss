@@ -1,3 +1,43 @@
 .services-page-container {
   height: calc(var(--vh, 1vh) * 100);
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.how-can-i-help-text-container {
+  font-size: 3vw;
+  font-weight: 800;
+  width: 60%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border-bottom: 3px solid #e31b6d;
+}
+
+.service-items-container {
+  padding-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.service-item {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.02vw;
+  font-weight: 600;
+  height: 100%;
+  min-width: 25%;
+  padding-bottom: 1%;
+}
+
+.service-item > img {
+  width: 40%;
+  margin-bottom: 7%;
 }
