@@ -45,7 +45,7 @@ export default class ServicesPage extends React.Component {
             <React.Fragment>
                 <div id={"services-page"} className={"services-page-container"}>
                     <div className={"how-can-i-help-text-container fade-in-left"}>
-                        <span>How can I help?</span>
+                        <span>How can I <span className={"underlined-header"}>help?</span></span>
                     </div>
                     <div className={"service-items-container fade-in-right"}>
                         {services.map(service => <ServiceItem

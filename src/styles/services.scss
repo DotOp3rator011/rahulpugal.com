@@ -9,14 +9,18 @@
 .how-can-i-help-text-container {
   font-size: 3vw;
   font-weight: 800;
-  width: 60%;
+  width: 40%;
   padding-top: 3%;
+}
+
+.underlined-header {
   padding-bottom: 2%;
   border-bottom: 3px solid #e31b6d;
 }
 
+
 .service-items-container {
-  padding-top: 1%;
+  padding-top: 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
